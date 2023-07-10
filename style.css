@@ -214,6 +214,13 @@ article{
 }
 
 
+.nuestra-historia-img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow:  0.1rem 0.1rem 0.2rem 0.1rem rgba(0, 0, 0, 0.212);
+}
+
+
 @media screen and (max-width:900px){
 
     .nuestra-historia-text{
@@ -223,13 +230,11 @@ article{
         padding: 5px;
         flex-direction: column;
     }
-    
-}
+ 
+    .nuestra-historia-img{
+        width: 400px;
+    }
 
-.nuestra-historia-img{
-    width: 500px;
-    border-radius: 20px;
-    box-shadow:  0.1rem 0.1rem 0.2rem 0.1rem rgba(0, 0, 0, 0.212);
 }
 
 .form-container{
